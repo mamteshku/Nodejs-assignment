@@ -1,4 +1,3 @@
-# step to be followed to use this api
 
 # install the packge using
 npm i
