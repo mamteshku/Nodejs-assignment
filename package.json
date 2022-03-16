@@ -1,0 +1,27 @@
+{
+  "name": "Assignment",
+  "version": "1.0.0",
+  "description": "Assignment",
+  "main": "app.js",
+  "scripts": {
+    "lint": "eslint \"routes/*.js\" \"models/*.js\"",
+    "precommit": "npm run lint",
+    "prepush": "npm run lint"
+  },
+  "author": "mamtesh kumar",
+  "license": "ISC",
+  "dependencies": {
+    "aws-sdk": "^2.1094.0",
+    "babel": "^6.23.0",
+    "bcrypt": "^3.0.6",
+    "body-parser": "^1.19.0",
+    "compression": "^1.7.4",
+    "express": "^4.17.1",
+    "helmet": "^3.21.1",
+    "http": "0.0.0",
+    "jsonwebtoken": "^8.5.1",
+    "mongoose": "^5.7.13",
+    "morgan": "^1.9.1",
+    "winston": "^3.2.1"
+  }
+}
